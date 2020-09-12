@@ -1,0 +1,275 @@
+*
+  {
+  margin:0;
+  padding:0;
+  font-family:verdana;
+  }
+  .main
+  {
+  width:100%
+  height:100vh;
+  background-color:RGB(37,37,37);
+  background-size:cover;
+  }
+  hr{
+    width: 100%;
+  }
+  h1{
+    font-family: Raleway,sans-serif;
+    text-transform: uppercase;
+  }
+  nav
+  {
+  width:100%;
+  height:60px;
+  background-color:RGB(37,37,37);
+  position:fixed;
+  opacity:0.9;
+  z-index: 1;
+  }
+  nav ul
+  {
+  float:right;
+  margin-right:15px;
+  
+  }
+  nav ul li
+  {
+    padding: 0;
+    margin: 0;
+  display:inline-block;
+  color:white;
+  padding:10px;
+  margin-top: 10px;
+  }
+  nav ul li:hover 
+  {
+  background-color:rgba(0, 255, 0, 0.2);
+
+
+  }
+  .box
+  {
+  }
+  .leftmenu
+  {
+  width:25%;
+  line-height:60px;
+  float:left;
+  
+  }
+  .func
+  {
+  padding-left:10px;
+  padding-top: 5px;
+  font-family: Century Gothic, sans-serif;
+  color:white;
+  font-size:35px;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  }
+img.logos
+{
+  width: 80px;
+  height: auto;
+  float: left;
+  margin-left: 10px;
+  margin-top: -7px;
+}
+img.quim
+{
+width: 100%;
+height:auto;
+float: left;
+}
+.test
+{
+height: 100px;
+width: 100%;
+}
+.test1
+{
+  position: absolute;
+  font-size: 7vw;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  margin-top: 25%;
+   margin-left: 18%;
+   text-shadow: 2px 2px 2px black;
+   color: white;
+   font-weight: lighter;
+}
+.testcontact
+{
+  position: absolute;
+  font-size: 7vw;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  margin-top: 25%;
+   margin-left: 30%;
+   text-shadow: 2px 2px 2px black;
+   color: white;
+   font-weight: lighter;
+}
+.test2
+{
+position: absolute;
+  font-size: 40px;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  margin-top: 34%;
+  margin-left: 10%;
+  text-shadow: 2px 2px 2px white;
+  font-weight: lighter;
+}
+.test3
+{
+position: absolute;
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  text-align: center;
+  margin-top: 45%;
+  margin-left: 18%;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-weight: lighter;
+}
+.logoMain{
+  position: absolute;
+  margin-top: 8%;
+  margin-left: 42%;
+  width: 18%;
+  opacity: 0.8;
+}
+.Bottom{
+  width:100%;
+  height:150px;
+  background-color:RGB(37,37,37);
+  float: right;
+}
+.Bottom p
+{
+  font-size: 15px;
+  font-family: Century Gothic, sans-serif;
+  text-align: right;
+  margin-right: 12%;
+  margin-top: 5%;
+  color: white;
+
+}.iconb1 
+{
+  
+  margin-top: -2%;
+  margin-left: 4%;
+  width: 3%;
+  opacity: 0.5;
+}
+.iconb2
+{
+  
+  margin-top: -2%;
+  margin-left: 2%;
+  width: 3%;
+  opacity: 0.5;
+}
+.iconb3 
+{
+  margin-top: -2%;
+  margin-left: 2%;
+  width: 3%;
+  opacity: 0.5;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    word-break: break-all;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+    font-weight: lighter;
+}
+h3{
+   text-align: center; 
+   color: black;
+   text-shadow: 2px 2px 4px grey;
+   font-family: Century Gothic, sans-serif;
+   font-weight: lighter;
+   
+}
+}
+h4 {
+  font-size: 20px;
+  font-family: Century Gothic, sans-serif;
+  font-weight: lighter;
+}
+
+
+h5{
+  font-size:25px;
+    text-align: center; 
+    color: black;
+    
+    font-family: Century Gothic, sans-serif;
+    font-weight: lighter;
+}
+
+
+body {
+    background-color:#e6e6e6;
+   font-family: Century Gothic, sans-serif;
+   font-weight: lighter;
+}
+
+p{
+ text-align: center;
+ font-size: 20px;
+ font-family: Century Gothic, sans-serif;
+ font-weight: lighter;
+}
+
+
+.row {
+    margin-left: 30px;
+    margin:8px 19px; 
+   
+
+}
+
+/* padding between each column */
+.row,
+.row > .column {
+    padding: 25px;
+
+}
+
+/* four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 45%;
+
+}
+
+/* floats after rows */ 
+.row:after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+/*white background behind the image */
+.content {
+    background-color: white;
+    padding: 20px;
+    border-style: outset; 
+}
+
+img.team{
+height:auto;
+width: 100%;
+border-color: white;
+
+}
+
+
+  

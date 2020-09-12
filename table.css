@@ -1,0 +1,103 @@
+*
+{ 
+ box-sizing: border-box; 
+}
+
+.head1
+{
+  text-align: center;
+  font-size:30px;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px green;
+}
+
+.letters
+{
+  text-align: justify;
+  font-size:18px;
+  margin:20px;
+  }
+
+  .letters2
+{
+  text-align: center;
+  font-size:18px;
+  }
+
+.column1
+{
+
+  width: 300px;
+  border: 8px solid black;
+  margin: 20px;
+  float: left;
+  margin-left: 17%;
+  padding: 20px
+  width 30%
+
+} 
+
+
+.tablestyle 
+{
+  background-color: white;
+  list-style-type: none;
+  border-bottom: 4px solid #eee;
+}
+
+.tablestyle:hover 
+{
+    box-shadow: 0 20px 60px 0 rgba(0,0,0,0.2)
+}
+
+.tablestyle .goldcolor
+{
+  font-weight: bold;
+
+  background-color: #FFD700;
+}
+
+.tablestyle .silvercolor
+{
+  font-weight: bold;
+
+  background-color: lightgray ;
+}
+
+.tablestyle .bronzecolor
+{
+  font-weight: bold;
+
+  background-color:#CD7F32 ;
+}
+
+.tablestyle .platinumcolor
+{
+  font-weight: bold;
+
+  background-color:#4169E1 ;
+}
+
+.button
+{
+
+ background-color: #4CAF50;
+ color: black;
+ border:solid black;
+ padding: 8px 20px;
+ text-align: center;
+ font-size: 18px;
+ font-weight: bold;
+ cursor: pointer;
+}
+.button:hover 
+{
+    box-shadow: 0 20px 30px 0 rgba(0,0,0,0.8)
+}
+
+
+.column2:hover 
+{
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.5)
+}
+

@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+
+html,body{
+height: 100%;
+width: 100%;
+font-family: 'Poppins', sans-serif;
+color: #222;
+background-color:rgb(30, 30, 30,0.9); 
+}
+
+.navbar{
+  background-color: rgb(30, 30, 30,0.9);
+  font-size: 15px;
+}
+
+
+.navbar h1{
+   color: white;
+   font-size: 30px;
+   font-family:Century Gothic, sans-serif;
+  }
+
+
+.nav-item{
+  color:white;
+}
+.navbar-brand {
+  color: white !important;
+  padding-left: 30px;
+}
+.navbar-nav li {
+  padding-right: 30px;
+
+}
+.navbar-nav li:hover
+ {
+  background-color:rgba(0, 255, 0, 0.2);
+  }
+nav .navbar-nav li a{
+  color: white !important;
+
+  }
+ .carousel-inner img{
+  width: 100%;
+ }
+.carousel-caption{
+ position: absolute;
+ top: 50%;
+ transform:translateY(-20%);
+ text-shadow: 4px 2px 4px #000000;
+ }
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 300px) {  
+  .carousel-caption h1 {font-size:40px;} /*1rem = 16px*/
+}
+@media (min-width: 544px) {  
+  .carousel-caption h1 {font-size:50px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+   .carousel-caption h1 {font-size:70px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   .carousel-caption h1 {font-size:90px;} /*1rem = 16px*/
+}
+ 
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+   .carousel-caption h1 {font-size:110px;} /*1rem = 16px*/    
+}
+
+.carousel-caption hr{
+  border-top: 3px solid #b4b4b4;
+  width: 95%;
+  margin-top: 20px;
+}
+
+@media (min-width: 300px) {  
+  .sp h1 {
+    margin-top: -150px;
+    font-size:50px;} /*1rem = 16px*/
+}
+@media (min-width: 544px) {  
+  .sp h1 {font-size:75px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+   .sp h1 {font-size:100px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   .sp h1 {font-size:150px;} /*1rem = 16px*/
+}
+.sp img{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.margen{
+ margin: 50px;
+
+}
+
+.sha{
+  text-shadow: 2px 2px 2px #d3d3d3;
+
+}
+
+
+
+footer{
+  background-color: #3f3f3f;
+  color:#d5d5d5;
+
+}
+footer h3 {
+  padding-top: 20px;
+  padding-left: 30px;
+  font-size: 12px;
+  color: white;
+  
+}
+footer .col-med-8 img{
+  padding-top: 10px;
+margin-right: 10px;
+}
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 300px) {  
+  .texto-trans {font-size:25px;} /*1rem = 16px*/
+}
+@media (min-width: 544px) {  
+  .texto-trans h1 {font-size:30px;} /*1rem = 16px*/
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+   .texto-trans {font-size:30px;} /*1rem = 16px*/
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+   .texto-trans {font-size:35px;} /*1rem = 16px*/
+}
+ 
+
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+/* NEW FROM DONATE PAGE */
+
+
+/* jumbotron V1.1 */
+
+.jumbotron-plat{
+
+  border-radius: 0.3rem;
+  background-color: rgb(220, 236, 250);
+  padding: 15;  
+}
+
+.jumbotron-gold{
+
+  border-radius: 0.3rem;
+  background-color: rgb(244, 248, 210);
+  padding: 15;  
+}
+.jumbotron-silver{
+  
+  border-radius: 0.3rem; 
+  background-color: rgb(228, 232, 235);
+  padding: 15;  
+}
+.jumbotron-bronze{
+ 
+  border-radius: 0.3rem;
+  background-color: rgb(247, 225, 212);
+  padding: 15;  
+}
+.jumbotron-copper{
+ 
+  border-radius: 0.3rem;
+  background-color: rgb(250, 231, 202);
+  padding: 15;  
+}
+.jumbotron-el{
+ 
+  border-radius: 0.3rem;
+  background-color: rgb(227, 245, 205);
+  padding: 15;  
+}
+
+
+
+/* buttons version 3.2 */
+
+.btn-group2 button {
+  padding: 30px 24px; 
+  cursor: pointer; 
+  width: 100%; 
+  display: block; 
+  
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: 0.3rem;
+}
+
+.btn-group2 button:not(:last-child) {
+  border-bottom: none; 
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
+  color:  rgb(191, 220, 245);
+  background-color: rgb(191, 220, 245);
+  border-color: rgb(191, 220, 245);
+}
+
+
+.btn-plat2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(89, 166, 233);
+  
+}
+
+.btn-plat2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(160, 206, 247);
+  
+}
+
+
+.btn-gold2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(219, 237, 43);
+}
+
+.btn-gold2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(217, 230, 107);
+}
+
+
+.btn-silver2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(166, 177, 186);
+}
+.btn-silver2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(207, 210, 212);
+}
+
+
+.btn-bronze2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(204, 124, 73);
+}
+.btn-bronze2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(236, 188, 158);
+}
+
+
+
+.btn-copper2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color:   rgb(184,115,51);
+}
+.btn-copper2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color: rgb(235, 188, 117);
+}
+
+
+.btn-el2 {
+  padding: 15px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color:  rgb(141, 210, 49);
+}
+.btn-el2:hover {
+  padding: 30px 24px;
+  border: 0 none;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  background-color:  rgb(189, 228, 139);
+}
+
+
+
+
+/* jumbotron  V3.2 */
+
+.jumbotron-plat2{
+ 
+  background-color: rgb(220, 236, 250);
+ 
+}
+
+.jumbotron-gold2{
+
+  background-color: rgb(244, 248, 210);
+
+}
+.jumbotron-silver2{
+ 
+  background-color: rgb(241, 245, 248);
+
+}
+.jumbotron-bronze2{
+ 
+  background-color: rgb(247, 225, 212);
+ 
+}
+.jumbotron-copper2{
+ 
+  background-color: rgb(250, 231, 202);
+
+}
+.jumbotron-el2{
+ 
+  background-color: rgb(227, 245, 205);
+ 
+}
+
+/* bullets */
+
+.custom-list {
+  list-style: none;
+ padding-left:20px;
+}
+.custom-list li {
+  position: relative;
+  padding-left: 25px;
+}
+.custom-list li:before {
+  content: '';
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background-image: url('check.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 10%;
+
+}
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
+  
