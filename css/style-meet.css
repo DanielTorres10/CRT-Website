@@ -156,7 +156,7 @@ margin-right: 10px;
 
 }
 body {
-  background: url('CarCRT.jpg'); no-repeat center center fixed;
+  background: url('../images/CarCRT.jpg'); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

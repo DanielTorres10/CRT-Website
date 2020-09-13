@@ -8,7 +8,7 @@ $message = $_POST['message'];
 
 
 $content="From: $name WEB Form Message \n Email: $email \n\n Message: $message";
-$recipient = "anthony.cuevas1@upr.edu";
+$recipient = "cokiracingteam@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient,$mailheader,$content, $mailheader) or die("Error!");
 header('location: Contactus.html');
