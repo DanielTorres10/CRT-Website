@@ -113,7 +113,33 @@ nav .navbar-nav li a{
 
 }
 
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 10px;
+  color: #556877;
+  width: 90%;
+}
 
+
+.row {
+  margin:0;
+}
+
+.logo-wrapper {
+  height:120px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  text-align:center;
+  border:solid 1px #eee;
+}
+
+.logo-wrapper img {
+  max-height:85px;
+  max-width:100%;
+}
 
 footer{
   background-color: #3f3f3f;
@@ -122,14 +148,13 @@ footer{
 }
 footer h3 {
   padding-top: 20px;
-  padding-left: 30px;
   font-size: 12px;
   color: white;
   
 }
 footer .col-med-8 img{
   padding-top: 10px;
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* Small devices (landscape phones, 544px and up) */
