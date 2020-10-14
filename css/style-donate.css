@@ -204,9 +204,31 @@ figure {
     padding: 1rem;
 }
 
+/* V3 */
+.cards1 {
+  margin: 0px 30px 30px;
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+   
+.card1 {
+  max-width: 100%;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+}
 
+#content1 {
+  padding: 15px;
+}
 
+div#content1 ul li{
+	display: inline;
+	margin: 20px;
 
+}
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
@@ -224,252 +246,6 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
-/* NEW FROM DONATE PAGE */
-
-
-/* jumbotron V1.1 */
-
-.jumbotron-plat{
-
-  border-radius: 0.3rem;
-  background-color: rgb(220, 236, 250);
-  padding: 15;  
-}
-
-.jumbotron-gold{
-
-  border-radius: 0.3rem;
-  background-color: rgb(244, 248, 210);
-  padding: 15;  
-}
-.jumbotron-silver{
-  
-  border-radius: 0.3rem; 
-  background-color: rgb(228, 232, 235);
-  padding: 15;  
-}
-.jumbotron-bronze{
- 
-  border-radius: 0.3rem;
-  background-color: rgb(247, 225, 212);
-  padding: 15;  
-}
-.jumbotron-copper{
- 
-  border-radius: 0.3rem;
-  background-color: rgb(250, 231, 202);
-  padding: 15;  
-}
-.jumbotron-el{
- 
-  border-radius: 0.3rem;
-  background-color: rgb(227, 245, 205);
-  padding: 15;  
-}
-
-
-
-/* buttons version 3.2 */
-
-.btn-group2 button {
-  padding: 30px 24px; 
-  cursor: pointer; 
-  width: 100%; 
-  display: block; 
-  
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: 0.3rem;
-}
-
-.btn-group2 button:not(:last-child) {
-  border-bottom: none; 
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active {
-  color:  rgb(191, 220, 245);
-  background-color: rgb(191, 220, 245);
-  border-color: rgb(191, 220, 245);
-}
-
-
-.btn-plat2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: rgb(89, 166, 233);
-  
-}
-
-.btn-plat2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: rgb(160, 206, 247);
-  
-}
-
-
-.btn-gold2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: rgb(219, 237, 43);
-}
-
-.btn-gold2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: rgb(217, 230, 107);
-}
-
-
-.btn-silver2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: rgb(166, 177, 186);
-}
-.btn-silver2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: rgb(207, 210, 212);
-}
-
-
-.btn-bronze2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color: rgb(204, 124, 73);
-}
-.btn-bronze2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: rgb(236, 188, 158);
-}
-
-
-
-.btn-copper2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color:   rgb(184,115,51);
-}
-.btn-copper2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color: rgb(235, 188, 117);
-}
-
-
-.btn-el2 {
-  padding: 15px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background-color:  rgb(141, 210, 49);
-}
-.btn-el2:hover {
-  padding: 30px 24px;
-  border: 0 none;
-  font-weight: 500;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  background-color:  rgb(189, 228, 139);
-}
-
-
-
-
-/* jumbotron  V3.2 */
-
-.jumbotron-plat2{
- 
-  background-color: rgb(220, 236, 250);
- 
-}
-
-.jumbotron-gold2{
-
-  background-color: rgb(244, 248, 210);
-
-}
-.jumbotron-silver2{
- 
-  background-color: rgb(241, 245, 248);
-
-}
-.jumbotron-bronze2{
- 
-  background-color: rgb(247, 225, 212);
- 
-}
-.jumbotron-copper2{
- 
-  background-color: rgb(250, 231, 202);
-
-}
-.jumbotron-el2{
- 
-  background-color: rgb(227, 245, 205);
- 
-}
-
-/* bullets */
-
-.custom-list {
-  list-style: none;
- padding-left:20px;
-}
-.custom-list li {
-  position: relative;
-  padding-left: 25px;
-}
-.custom-list li:before {
-  content: '';
-  width: 18px;
-  height: 18px;
-  position: absolute;
-  background-image: url('check.png');
-  background-size: cover;
-  background-position: center;
-  left: 0;
-  top: 10%;
-
-}
-
 
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
