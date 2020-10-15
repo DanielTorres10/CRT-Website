@@ -30,19 +30,16 @@ The electrical and software division designed the website during Summer 2019. To
 
 2. Click Views and More Actions menu (looks like "…") and select Push in the dropdown menu.
 
-
 <img src="https://miro.medium.com/max/662/1*ZPjvBFaiTNjXyo8xOMcf6g.png" alt="alt text" width="400"/>
 
-
 ## The team behind the website
-
 - Anthony Cuevas - Lead the team in designing the website.
 - Zulmarie Jimenez - Team Captain Fall 2020.
 - Daniel Torres - Electrical/Software Lead Fall 2020.
 - Angel Zayas - Author of this doc.
 - Luis Rodriguez - Working soon on the website.
 - Alexander Monell - Working soon on the website.
-// add yourself!
+- You can be the next one!
 
 ## Sources
 Material used in this doc:
